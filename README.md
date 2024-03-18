@@ -1,6 +1,16 @@
+---
+
 # Brute Force Password Cracker
 
 This script performs a brute-force attack to crack a password hashed using SHA-256.
+
+## Features
+
+- **Brute Force Attack**: Utilizes a brute-force approach to systematically guess passwords until the correct one is found.
+- **Customizable Maximum Length**: Allows customization of the maximum length of the password to search for.
+- **Supports Various Character Sets**: Supports ASCII letters, digits, and punctuation characters for password combinations.
+- **Efficient Hash Comparison**: Compares hashed password attempts to the target hash value using SHA-256 for efficient and secure comparison.
+- **Fast Execution**: Optimized algorithm for fast execution, providing quick results.
 
 ## Usage
 
@@ -21,7 +31,7 @@ This script performs a brute-force attack to crack a password hashed using SHA-2
 
 4. Enter the hash value of the target password when prompted.
 
-5. The script will attempt to crack the password using a brute-force attack up to a maximum length of 8 characters.
+5. The script will attempt to crack the password using a brute-force attack up to a maximum length.
 
 ## Example
 
